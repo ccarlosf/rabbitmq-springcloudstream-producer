@@ -1,13 +1,13 @@
-package com.ccarlos.rabbitmqspringcloud;
+package com.ccarlos.springcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RabbitmqSpringcloudstreamProducerApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(RabbitmqSpringcloudstreamProducerApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 
 }
